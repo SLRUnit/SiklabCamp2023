@@ -118,7 +118,7 @@ section{
   }
 
   .section_bg{
-    background-color: grey;
+    background-color: lightgrey;
   }
 
   .section_title{
@@ -128,13 +128,13 @@ section{
   .section_title p{
     margin-bottom: 0;
     font-family: 'Open Sans', sans-serif;
-    color: white;
+    color: black;
   }
 
   .section_title h2{
     font-weight: 700;
     font-size: 48px;
-    color: white;
+    color: black;
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -156,7 +156,5 @@ section{
     text-align: center;
     padding: 40px 20px;
     background-color: white;
-    height: 100%;
-    overflow: hidden;
   }
 

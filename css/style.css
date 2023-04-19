@@ -116,4 +116,47 @@ section{
     display: block;
    content: '';
   }
-  
+
+  .section_bg{
+    background-color: grey;
+  }
+
+  .section_title{
+    padding-bottom: 30px;
+  }
+
+  .section_title p{
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+  }
+
+  .section_title h2{
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+
+  .section_title h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    bottom: 0;
+    left: 0;
+  }
+
+  .services .iconbox{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+    height: 100%;
+    overflow: hidden;
+  }
+
